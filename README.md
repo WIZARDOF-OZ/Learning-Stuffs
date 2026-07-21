@@ -1,8 +1,8 @@
-# JavaScript Learning Notes
+# Learning Notes
 
-This project is a simple workspace for practicing JavaScript in VS Code.
+This project is a simple workspace for practicing codes and some stuffs
 
-## What this folder contains
+## What this folder contains right now
 
 - [index.html](index.html) - basic HTML file
 - [main/day1.js](main/day1.js) - JavaScript practice file
