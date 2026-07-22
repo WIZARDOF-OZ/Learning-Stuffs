@@ -40,4 +40,7 @@ let message2;
 // copy 'Hello world' from hello into message
 message2 = hello;
 console.log(message2)
-console.log(hello)  
+console.log(hello)
+
+
+
