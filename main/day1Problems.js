@@ -13,7 +13,7 @@ const isEven = (num) => {
 isEven(4) // true
 isEven(7) // false
 
-// Alternate way
+// Alternate way using tineray operator
 
 let number = prompt("Enter a number to check if it is even or odd: ");
 let type = (number % 2 === 0) ? "even" : "odd";
@@ -56,7 +56,7 @@ for (i = 1; i <= 100; i++) {
 }
 
 
-
+// problem 5
 for (i = 1; i <= 50; i++) {
     if (i % 3 === 0) {
         console.log("Fizz")
@@ -67,3 +67,35 @@ for (i = 1; i <= 50; i++) {
         console.log("FizzBuzz")
     }
 }
+
+// problem 6
+
+for (let i = 1; i <= 10; i++) {
+    const result = i * 7
+    console.log(`${i} * 7 = ${result}`)
+}
+
+// problem 7
+let n = 84692;
+let maxDigit = 0; // 1. Create a tracker variable
+
+while (n > 0) {
+    let digit = n % 10;
+
+    if (digit > maxDigit) {
+        maxDigit = digit; // 2. Update tracker if current digit is larger
+    }
+
+    n = Math.floor(n / 10);
+}
+
+console.log(maxDigit); // 3. Print the final result (Output: 9)
+
+// problem 8
+
+let name = "Hello";
+let reverseName = "";
+for (let i = name.length - 1; i >= 0; i--) {
+    reverseName += name[i];
+}
+console.log(reverseName); // Output: "olleH"
